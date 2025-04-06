@@ -1,2 +1,5 @@
-bin
+os/bin
 BIOS
+qemu.log
+sdcard-riscv64.img
+.vscode

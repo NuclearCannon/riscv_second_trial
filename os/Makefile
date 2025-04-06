@@ -8,7 +8,7 @@ LD = riscv64-unknown-elf-ld
 OBJCOPY = riscv64-unknown-elf-objcopy
 
 # 编译选项
-CFLAGS = -Wall -march=rv64imac -mabi=lp64 -ffreestanding -nostdlib -mcmodel=medany
+CFLAGS = -g -Wall -march=rv64imac -mabi=lp64 -ffreestanding -nostdlib -mcmodel=medany
 CXXFLAGS = $(CFLAGS) -std=c++17  # C++ 编译选项
 CXXFLAGS += -fno-exceptions		# 禁用：异常控制流
 ASFLAGS = -march=rv64imac -mabi=lp64# -mcmodel=medany

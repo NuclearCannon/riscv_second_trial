@@ -51,3 +51,5 @@ public:
     int erase(void* va);
     uint64 make_satp();
 };
+
+constexpr uint64 PGSIZE = 4096;
